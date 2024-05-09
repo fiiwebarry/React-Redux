@@ -1,12 +1,15 @@
 import './App.css'
+import Navbar from './components/generic-layouts/Navbar'
+
 
 function App() {
 
 
   return (
-    <>
-      <h1 className='text-[48px] font-semibold text-[#3939b4] '>Redux toolkit</h1>
-    </>
+    <main>
+      <Navbar />
+
+    </main>
   )
 }
 
